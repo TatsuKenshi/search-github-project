@@ -5,8 +5,8 @@ import React from "react";
 
 // user profile - used to be Card component
 
-const Userinfo = () => {
-  return <div>Userinfo</div>;
+const UserInfo = () => {
+  return <div>UserInfo</div>;
 };
 
-export default Userinfo;
+export default UserInfo;
