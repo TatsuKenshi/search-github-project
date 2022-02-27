@@ -1,7 +1,7 @@
 import React from "react";
-// import styled from "styled-components";
-// import UserInfo from "./UserInfo";
-// import UserFollowers from "./UserFollowers";
+import styled from "styled-components";
+import UserInfo from "./UserInfo";
+import UserFollowers from "./UserFollowers";
 
 // contains the Userinfo and Followers components
 // Chartsection (containing all four charts comes below it)
