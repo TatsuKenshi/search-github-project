@@ -1,12 +1,13 @@
 import React from "react";
-// import { GithubContext } from "../context/context";
+import { UserContext } from "../context/Context";
 // import styled from "styled-components";
 // import { MdBusiness, MdLocationOn, MdLink } from "react-icons/md";
 
 // user profile - used to be Card component
 
 const UserInfo = () => {
-  return <div>UserInfo</div>;
+  const data = React.useContext(UserContext);
+  return <div>UserInfo {data}</div>;
 };
 
 export default UserInfo;

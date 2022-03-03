@@ -1,12 +1,19 @@
-import React from "react";
-// import mockUser from "./mockData.js/mockUser";
-// import mockRepos from "./mockData.js/mockRepos";
-// import mockFollowers from "./mockData.js/mockFollowers";
-// import axios from "axios";
+import React, { useState, useEffect } from "react";
+import StaticUser from "../data/StaticUser";
+import StaticRepos from "../data/StasticRepos";
+import StaticFollowers from "../data/StaticFollowers";
+import axios from "axios";
 
+//  API root url
+const mainURL = "https://api.github.com";
 // context
-const Context = () => {
-  return <div>Context</div>;
+const UserContext = React.createContext();
+
+// provider component
+const UserProvider = ({ children }) => {
+  return (
+    <UserContext.Provider value={"hello"}>{children}</UserContext.Provider>
+  );
 };
 
-export default Context;
+export { UserProvider, UserContext };

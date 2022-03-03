@@ -4,7 +4,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Search from "../components/Search";
 import Stats from "../components/Stats";
-import User from "../components/User";
+import UserSection from "../components/UserSection";
 import ChartSection from "../components/ChartSection";
 
 // contains the navbar, search, stats, user info section, chart section
@@ -15,7 +15,7 @@ const Homepage = () => {
       <Navbar />
       <Search />
       <Stats />
-      <User />
+      <UserSection />
       <ChartSection />
     </div>
   );
