@@ -7,7 +7,8 @@ import { UserContext } from "../context/Context";
 
 const UserInfo = () => {
   const data = React.useContext(UserContext);
-  return <div>UserInfo {data}</div>;
+  console.log(data);
+  return <div>UserInfo</div>;
 };
 
 export default UserInfo;

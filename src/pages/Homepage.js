@@ -3,9 +3,9 @@ import React from "react";
 // import { GithubContext } from "../context/context";
 import Navbar from "../components/Navbar";
 import Search from "../components/Search";
-// import Stats from "../components/Stats";
-// import UserSection from "../components/UserSection";
-// import ChartSection from "../components/ChartSection";
+import Stats from "../components/Stats";
+import UserSection from "../components/UserSection";
+import ChartSection from "../components/ChartSection";
 
 // contains the navbar, search, stats, user info section, chart section
 
@@ -14,9 +14,9 @@ const Homepage = () => {
     <div>
       <Navbar />
       <Search />
-      {/* <Stats /> */}
-      {/* <UserSection /> */}
-      {/* <ChartSection /> */}
+      <Stats />
+      <UserSection />
+      <ChartSection />
     </div>
   );
 };
