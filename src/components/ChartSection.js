@@ -15,10 +15,10 @@ const ChartSection = () => {
     <div>
       <h3>Chart Section</h3>
       <ChartSample></ChartSample>
-      {/* <ChartBar3d></ChartBar3d> */}
-      {/* <ChartColumn3d></ChartColumn3d> */}
-      {/* <ChartDoughnut2d></ChartDoughnut2d> */}
-      {/* <ChartPie3d></ChartPie3d> */}
+      <ChartBar3d></ChartBar3d>
+      <ChartColumn3d></ChartColumn3d>
+      <ChartDoughnut2d></ChartDoughnut2d>
+      <ChartPie3d></ChartPie3d>
     </div>
   );
 };
