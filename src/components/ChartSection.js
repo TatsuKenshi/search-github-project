@@ -11,10 +11,25 @@ const ChartSection = () => {
   const { staticRepos } = React.useContext(UserContext);
   console.log(staticRepos);
 
+  const chartData = [
+    {
+      label: "HTML",
+      value: "10",
+    },
+    {
+      label: "CSS",
+      value: "20",
+    },
+    {
+      label: "JavaScript",
+      value: "60",
+    },
+  ];
+
   return (
     <div>
       <h3>Chart Section</h3>
-      <ChartSample></ChartSample>
+      <ChartSample data={chartData}></ChartSample>
       <ChartBar3d></ChartBar3d>
       <ChartColumn3d></ChartColumn3d>
       <ChartDoughnut2d></ChartDoughnut2d>
