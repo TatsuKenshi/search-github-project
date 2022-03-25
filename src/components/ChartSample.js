@@ -44,14 +44,14 @@ const chartData = [
     label: "UAE",
     value: "100",
   },
-  {
-    label: "US",
-    value: "30",
-  },
-  {
-    label: "China",
-    value: "30",
-  },
+  // {
+  //   label: "US",
+  //   value: "30",
+  // },
+  // {
+  //   label: "China",
+  //   value: "30",
+  // },
 ];
 
 // STEP 3 - Creating the JSON object to store the chart configurations
