@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import StaticUser from "../data/StaticUser";
-import StaticRepos from "../data/StasticRepos";
+import StaticRepos from "../data/StaticRepos";
 import StaticFollowers from "../data/StaticFollowers";
 // import axios from "axios";
 
