@@ -61,12 +61,11 @@ const ChartSection = () => {
     <div>
       <h3>Chart Section</h3>
       {/* <ChartSample data={chartData}></ChartSample> */}
-      <ChartPie3d data={allLanguages}>
-        {/* instead of the dummy chartData, we pass the allLanguages array to the ChartPie3d component */}
-      </ChartPie3d>
+      {/* instead of the dummy chartData, we pass the allLanguages array to the ChartPie3d component */}
+      <ChartPie3d data={allLanguages}></ChartPie3d>
       <ChartBar3d></ChartBar3d>
+      <ChartDoughnut2d data={chartData}></ChartDoughnut2d>
       <ChartColumn3d></ChartColumn3d>
-      <ChartDoughnut2d></ChartDoughnut2d>
     </div>
   );
 };

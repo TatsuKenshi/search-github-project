@@ -21,8 +21,8 @@ const ChartSample = ({ data }) => {
   // STEP 3 - Creating the JSON object to store the chart configurations
   const chartConfigs = {
     type: "pie3d", // The chart type
-    width: "500", // Width of the chart
-    height: "500", // Height of the chart
+    width: "450", // Width of the chart
+    height: "450", // Height of the chart
     dataFormat: "json", // Data type
     dataSource: {
       chart: {
