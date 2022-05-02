@@ -30,7 +30,7 @@ const ChartSample = ({ data }) => {
         theme: "candy",
         decimals: 0,
         doughnutRadius: "35%",
-        showPercentValues: 1,
+        showPercentValues: 0,
         // paletteColors: "#f0db4f",
       },
       // Chart Data
